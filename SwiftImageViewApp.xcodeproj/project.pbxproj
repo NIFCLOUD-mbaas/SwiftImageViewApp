@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		485A9B112626F9F200AE5B55 /* SwiftImageViewAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485A9B102626F9F200AE5B55 /* SwiftImageViewAppUITests.swift */; };
 		8FE2E6B2A366CD08F45DE56F /* Pods_SwiftImageViewApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 957167F81648370CE514D426 /* Pods_SwiftImageViewApp.framework */; };
 		BDB4444A1DBF52CD007CD26C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB444491DBF52CD007CD26C /* AppDelegate.swift */; };
 		BDB4444C1DBF52CD007CD26C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB4444B1DBF52CD007CD26C /* ViewController.swift */; };
@@ -15,7 +16,20 @@
 		BDB444541DBF52CD007CD26C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB444521DBF52CD007CD26C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		485A9B132626F9F200AE5B55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDB4443E1DBF52CD007CD26C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDB444451DBF52CD007CD26C;
+			remoteInfo = SwiftImageViewApp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		485A9B0E2626F9F200AE5B55 /* SwiftImageViewAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftImageViewAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		485A9B102626F9F200AE5B55 /* SwiftImageViewAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftImageViewAppUITests.swift; sourceTree = "<group>"; };
+		485A9B122626F9F200AE5B55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		957167F81648370CE514D426 /* Pods_SwiftImageViewApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftImageViewApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A11944EA94C7E8049516C71D /* Pods-SwiftImageViewApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftImageViewApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftImageViewApp/Pods-SwiftImageViewApp.debug.xcconfig"; sourceTree = "<group>"; };
 		BDB444461DBF52CD007CD26C /* SwiftImageViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftImageViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +43,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		485A9B0B2626F9F200AE5B55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BDB444431DBF52CD007CD26C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -49,10 +70,20 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		485A9B0F2626F9F200AE5B55 /* SwiftImageViewAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				485A9B102626F9F200AE5B55 /* SwiftImageViewAppUITests.swift */,
+				485A9B122626F9F200AE5B55 /* Info.plist */,
+			);
+			path = SwiftImageViewAppUITests;
+			sourceTree = "<group>";
+		};
 		BDB4443D1DBF52CD007CD26C = {
 			isa = PBXGroup;
 			children = (
 				BDB444481DBF52CD007CD26C /* SwiftImageViewApp */,
+				485A9B0F2626F9F200AE5B55 /* SwiftImageViewAppUITests */,
 				BDB444471DBF52CD007CD26C /* Products */,
 				20D985568E93F82C47E8A7E1 /* Pods */,
 				DAB3A54EC81DA6D18826BEB5 /* Frameworks */,
@@ -63,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				BDB444461DBF52CD007CD26C /* SwiftImageViewApp.app */,
+				485A9B0E2626F9F200AE5B55 /* SwiftImageViewAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -91,6 +123,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		485A9B0D2626F9F200AE5B55 /* SwiftImageViewAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 485A9B172626F9F200AE5B55 /* Build configuration list for PBXNativeTarget "SwiftImageViewAppUITests" */;
+			buildPhases = (
+				485A9B0A2626F9F200AE5B55 /* Sources */,
+				485A9B0B2626F9F200AE5B55 /* Frameworks */,
+				485A9B0C2626F9F200AE5B55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				485A9B142626F9F200AE5B55 /* PBXTargetDependency */,
+			);
+			name = SwiftImageViewAppUITests;
+			productName = SwiftImageViewAppUITests;
+			productReference = 485A9B0E2626F9F200AE5B55 /* SwiftImageViewAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		BDB444451DBF52CD007CD26C /* SwiftImageViewApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDB444581DBF52CD007CD26C /* Build configuration list for PBXNativeTarget "SwiftImageViewApp" */;
@@ -118,10 +168,15 @@
 		BDB4443E1DBF52CD007CD26C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0800;
+				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "NIFTY Corporation";
 				TargetAttributes = {
+					485A9B0D2626F9F200AE5B55 = {
+						CreatedOnToolsVersion = 12.4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BDB444451DBF52CD007CD26C;
+					};
 					BDB444451DBF52CD007CD26C = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
@@ -142,11 +197,19 @@
 			projectRoot = "";
 			targets = (
 				BDB444451DBF52CD007CD26C /* SwiftImageViewApp */,
+				485A9B0D2626F9F200AE5B55 /* SwiftImageViewAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		485A9B0C2626F9F200AE5B55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BDB444441DBF52CD007CD26C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -233,6 +296,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		485A9B0A2626F9F200AE5B55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485A9B112626F9F200AE5B55 /* SwiftImageViewAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BDB444421DBF52CD007CD26C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -243,6 +314,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		485A9B142626F9F200AE5B55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDB444451DBF52CD007CD26C /* SwiftImageViewApp */;
+			targetProxy = 485A9B132626F9F200AE5B55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BDB4444D1DBF52CD007CD26C /* Main.storyboard */ = {
@@ -264,6 +343,51 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		485A9B152626F9F200AE5B55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SwiftImageViewAppUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = asia.vitalify.SwiftImageViewAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftImageViewApp;
+			};
+			name = Debug;
+		};
+		485A9B162626F9F200AE5B55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SwiftImageViewAppUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = asia.vitalify.SwiftImageViewAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftImageViewApp;
+			};
+			name = Release;
+		};
 		BDB444561DBF52CD007CD26C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -408,6 +532,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		485A9B172626F9F200AE5B55 /* Build configuration list for PBXNativeTarget "SwiftImageViewAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485A9B152626F9F200AE5B55 /* Debug */,
+				485A9B162626F9F200AE5B55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BDB444411DBF52CD007CD26C /* Build configuration list for PBXProject "SwiftImageViewApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
