@@ -42,7 +42,6 @@ class ViewController: UIViewController {
                 DispatchQueue.main.async {
                     self.label.text = "NG エラーコード：\(error)"
                 }
-                return;
             }
         })
     }
